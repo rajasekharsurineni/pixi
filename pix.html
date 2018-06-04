@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style type="text/css">
+    .main{
+      width: 100%;
+    position: relative;
+    /*-webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;*/
+    overflow: hidden;
+}
+@media screen and (max-width: 768px){
+.main{
+  width: 70%
+}
+  }
+  </style>
+
+</head>
+  <script src="C:\Users\lenovo pc\Downloads\pixi.min.js"></script>
+<body>
+
+  <div class="main"></div>
+  <div class="mainn"></div>
+  <script src="pure.js"></script>
+<!--   <script type="text/javascript">
+    let type = "WebGL"
+    let resources=PIXI.loader.resources;
+    if(!PIXI.utils.isWebGLSupported()){
+      type = "canvas"
+    }
+
+    PIXI.utils.sayHello(type)
+     let app = new PIXI.Application({ 
+    width: 256,         // default: 800
+    height: 256,        // default: 600
+    antialias: true, 
+    forceCanvas: true,   // default: false
+    transparent: false, // default: false
+    resolution: 1       // default: 1
+  }
+);
+  //   PIXI.loader
+  // .add("images/img.png")
+  // .load(setup);
+let sprite;
+const p = new PIXI.Graphics();
+p.beginFill(0x66CCFF);
+p.lineStyle(0);
+p.drawCircle(0, 0, 50);
+p.endFill();
+p.x = 100;
+p.y = 100;
+const t = PIXI.RenderTexture.create(p.width, p.height);
+ 
+app.render(p,t)
+ sprite = new  PIXI.Sprite(t);
+sprite.x = 100;
+app.stage.addChild(sprite)
+// function setup() {
+//    sprite = new PIXI.Sprite(
+//     PIXI.loader.resources["images/img.png"].texture
+//   );
+//   //Change the sprite's position
+ 
+//   sprite.y = 96;
+
+//   //Change the sprite's size
+//   sprite.width = 80;
+//   sprite.height = 120;
+//   sprite.rotation = 0.5;
+  
+// app.ticker.add(delta => gameLoop(delta));
+//   app.stage.addChild(sprite)
+// }
+
+
+
+// function gameLoop(delta){
+
+//   //Move the cat 1 pixel 
+//   sprite.y += 1;
+  
+//   //Optionally use the `delta` value
+//   //cat.x += 1 + delta;
+// }
+  
+   app.renderer.backgroundColor = 0x061639;
+   app.renderer.autoResize = true;
+app.renderer.resize(512, 512);
+document.body.appendChild(app.view);
+  </script> -->
+</body>
+</html>
